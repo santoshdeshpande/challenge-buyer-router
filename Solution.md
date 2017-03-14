@@ -1,8 +1,8 @@
-#Code Challenge
+### Code Challenge
 
 This is a solution to the code challenge as described in the README.md
 
-#Assumptions
+### Assumptions
 
 * Redis server is available on the local machine where the tests are
   being run. This can be improved to read from a config file later on
@@ -10,7 +10,7 @@ This is a solution to the code challenge as described in the README.md
   keys or data
 * No performance tests have been done against the code
 
-#Solution
+### Solution
 
 * Multiple buckets are created to hold various pieces of information are
   described below
@@ -25,7 +25,7 @@ returns all buyer:id$index combinations that have desktop as a device.
 * Set intersection is used to find out members who satisfy the query in
   the route and then sorted by value to redirect to the correct location
 
-# Files
+### Files
 
 * lib/server.js - Contains the server code
 * lib/redis-client.js - Contains the interaction with redis. This can be
